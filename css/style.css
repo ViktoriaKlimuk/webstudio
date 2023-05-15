@@ -37,13 +37,10 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.logo-web {
     color: var(--iris);
 }
 
-.logo-web-color {
+.logo-web {
     color: var(--navy-blue);
 }
 
