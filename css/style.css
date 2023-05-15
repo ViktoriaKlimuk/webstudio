@@ -121,7 +121,7 @@ body{
     white-space: nowrap; 
 }
 
-.features-title {
+.team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -130,7 +130,7 @@ body{
     background-color: #FFFFFF;
 }
 
-.features-text {
+.team-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
