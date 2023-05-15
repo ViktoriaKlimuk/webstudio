@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #434455;
+    background-color: var(--text-color);
+    color: #434455;
 }
 
 /*-------- BASIC ---------*/
