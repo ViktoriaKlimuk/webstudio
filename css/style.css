@@ -1,0 +1,163 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--text-color);
+}
+
+/*-------- BASIC ---------*/
+:root {
+    --navy-blue: #2E2F42;
+    --iris: #4D5AE5;
+    --slate: #434455;
+    --text-color: #FFFFFF;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*-------- HEADERS ---------*/
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+
+.logo-web {
+    color: var(--iris);
+}
+
+.list-items {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    font-style: normal;
+}
+
+/*-------- MAIN ---------*/
+
+/*-------- FIRST SECTION ---------*/
+.solutions {
+    background-color: var(--navy-blue);
+}
+
+.solutions-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.solutions-btn {
+    background-color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+}
+
+/*-------- SECOND SECTION ---------*/
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; 
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.feature-color {
+    color: var(--slate);
+}
+
+/*-------- THIRD, FORTH SECTION ---------*/
+.team {
+    background-color: var(--cloud);
+}
+
+.team-tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+/*-------- FOOTER ---------*/
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.footer-color {
+    color: var(--text-color);
+}
+
+/*-------- PORTFOLIO ---------*/
+/*-------- MAIN ---------*/
+/*-------- FIRST SECTION ---------*/
+.main-fulterbtn {
+    background-color: var(--cloud);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    cursor: pointer;
+}
+
+.main-fulterbtn:is(:focus, :hover) {
+    background-color: var(--ocean);
+    color: var(--text-color);
+}
+
+
