@@ -12,6 +12,7 @@ body{
     --text-color: #FFFFFF;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
+    --cornflower: #E7E9FC;
 }
 
 .link {
@@ -30,16 +31,24 @@ body{
 
 /*-------- HEADERS ---------*/
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
 }
 
 .logo-web {
     color: var(--iris);
+}
+
+.logo-web-color {
+    color: var(--navy-blue);
+}
+
+.address{
+    font-style: normal;
 }
 
 .list-items {
@@ -48,6 +57,18 @@ body{
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+
+.list-items:is(:focus, :hover) {
+    color: var(--ocean);
+}
+
+.email:is(:hover, :focus) {
+    color: var(--ocean);
+}
+
+.top-line {
+ color: var(--cornflower);
 }
 
 .contacts {
@@ -81,6 +102,11 @@ body{
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--text-color);
+    cursor: pointer;
+}
+
+.solutions-btn:is(:hover, :focus){
+    background-color: var(--ocean);
 }
 
 /*-------- SECOND SECTION ---------*/
@@ -103,6 +129,13 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    background-color: #FFFFFF;
+}
+
+.features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .feature-color {
@@ -129,13 +162,14 @@ body{
     background-color: var(--navy-blue);
 }
 
-.logo-footer {
-    font-family: 'Raleway';
+.logo-web-footer {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
-    color: var(--text-color);
+    letter-spacing: 0.03em;
+    color: var(--cloud);
 }
 
 .footer-color {
