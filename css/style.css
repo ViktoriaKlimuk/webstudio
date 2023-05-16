@@ -142,6 +142,10 @@ body{
 
 /*-------- THIRD, FORTH SECTION ---------*/
 .team {
+    background-color: #F4F4FD;
+}
+
+.card {
     background-color: #FFFFFF;
 }
 
@@ -186,6 +190,7 @@ body{
     letter-spacing: 0.04em;
     color: var(--iris);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-fulterbtn:is(:focus, :hover) {
