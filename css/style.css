@@ -122,8 +122,12 @@ ul>li {
 /*-------- FIRST SECTION ---------*/
 .solutions {
     background-color: var(--navy-blue);
-    padding: 188px 316px 148px 316px;
+    padding: 188px 0;
     text-align: center;
+}
+
+.solutions-article {
+    max-width: 496px;
 }
 
 h1 {
@@ -145,6 +149,11 @@ h1 {
     font-family: "Roboto", sans-serif;
     padding: 16px 32px;
     margin: 48px 0;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .solutions-btn:is(:hover, :focus){
