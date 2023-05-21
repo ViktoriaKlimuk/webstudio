@@ -48,6 +48,7 @@ img {
 /*-------- HEADERS ---------*/
 header{
     padding: 24px 0;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .head{
@@ -288,10 +289,6 @@ h3 {
 /*-------- PORTFOLIO ---------*/
 /*-------- MAIN ---------*/
 /*-------- FIRST SECTION ---------*/
-.line{
-    border-bottom: 1px solid #E7E9FC;
-}
-
 .btn {
     justify-content: center;
     padding: 144px 0 72px;
