@@ -31,17 +31,25 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0 auto;
 }
 
 
 .container {
     width: 1168px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0 auto;
 }
 
 /*-------- HEADERS ---------*/
 header{
-    padding: 24px 0 24px 156px;
+    padding: 24px 0;
+}
+
+.head{
     display: flex;
+    padding: 0;
 }
 
 nav{
@@ -50,7 +58,12 @@ nav{
 
 .contact {
     display: flex;
-    flex-direction: row;
+}
+
+.phone {
+    margin: 0;
+    width: 152px;
+    display: inline-block;
 }
 
 .logo {
@@ -92,16 +105,11 @@ ul>li {
     color: var(--ocean);
 }
 
-.top-line {
- color: var(--cornflower);
-}
-
 .contacts {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--slate);
-    font-style: normal;
 }
 
 /*-------- MAIN ---------*/
@@ -109,7 +117,7 @@ ul>li {
 /*-------- FIRST SECTION ---------*/
 .solutions {
     background-color: var(--navy-blue);
-    padding: 188px 472px 148px 472px;
+    padding: 188px 316px 148px 316px;
     text-align: center;
 }
 
@@ -140,7 +148,7 @@ h1 {
 
 /*-------- SECOND SECTION ---------*/
 .feature {
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .visuallyhidden {
@@ -167,7 +175,7 @@ h1 {
 }
 
 .feature-card-index>li {
-    margin: 0;
+    margin-right: 24px;
 }
 
 p.feature-color{
@@ -181,6 +189,7 @@ h2 {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .team-text {
@@ -198,7 +207,8 @@ h2 {
 
 /*-------- THIRD, FORTH SECTION ---------*/
 .possibilities {
-    padding: 0 156px 120px 156px;
+    padding-bottom: 120px;
+    padding-top: 0;
 }
 
 .possibilities>h2{
@@ -206,19 +216,18 @@ h2 {
     justify-content: center;
 }
 
-.pic {
+.article {
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
 }
 
-.pic>li {
-    margin-right: 24px;
+.pic {
+    display: flex;
 }
 
 .team {
     background-color: #F4F4FD;
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .team-bk{
@@ -229,10 +238,6 @@ h2 {
 
 .team-card {
     display: flex;
-}
-
-.team-card>.card{
-    margin-right: 24px;
 }
 
 .card {
@@ -247,13 +252,18 @@ h3 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
-    margin-top: 32px;
+    margin: 0;
 }
 
 /*-------- FOOTER ---------*/
 .footer {
     background-color: var(--navy-blue);
-    padding: 100px 1020px 100px 156px;
+    padding: 100px 0;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-web-foot {
@@ -268,6 +278,8 @@ h3 {
 
 .footer-color {
     color: var(--text-color);
+    margin: 16px 0 0 0;
+    width: 264px;
 }
 
 /*-------- PORTFOLIO ---------*/
@@ -278,8 +290,8 @@ h3 {
 }
 
 .btn {
-    padding: 144px 0 72px 427px;
-    margin: 0;
+    justify-content: center;
+    padding: 144px 0 72px;
     display: flex;
 }
 
@@ -297,7 +309,7 @@ h3 {
 }
 
 .btn>.main-fulterbtn{
-    margin-right: 24px;
+    margin-right: 20px;
 }
 
 .main-fulterbtn:is(:focus, :hover) {
@@ -308,9 +320,10 @@ h3 {
 /*-------- FIRST SECTION/SECOND PART ---------*/
 
 .feature-container {
-    margin: 0 156px 120px 156px;
+    margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul.feature-container>li.feature-card{
@@ -319,7 +332,8 @@ ul.feature-container>li.feature-card{
 
 .feature-card {
     border: 1px solid #E7E9FC;
-    width: 351px;
+    width: 360px;
+    padding: 0;
 }
 
 .feature-card>a>h2{
