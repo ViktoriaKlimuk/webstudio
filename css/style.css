@@ -40,13 +40,12 @@ img {
 
 .container {
     width: 1168px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
 }
 
 /*-------- HEADERS ---------*/
-header{
+.header{
     padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
 }
@@ -56,8 +55,10 @@ header{
     padding: 0;
 }
 
-nav{
+.nav-logo{
     margin-right: 76px;
+    display: flex;
+    align-items: center;
 }
 
 .contact {
