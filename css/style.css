@@ -230,9 +230,9 @@ h2 {
     padding-top: 0;
 }
 
-.possibilities>h2{
-    display: flex;
-    justify-content: center;
+.posib-article{
+    margin-bottom: 72px; 
+    text-align: center;
 }
 
 .article {
@@ -240,8 +240,13 @@ h2 {
     flex-direction: column;
 }
 
-.pic {
+.pic-container {
     display: flex;
+    gap: 24px; 
+}
+
+.posib-pics {
+    width: calc((100% - 48px) / 3); 
 }
 
 .team {
