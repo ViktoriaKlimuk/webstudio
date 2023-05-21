@@ -183,17 +183,22 @@ h1 {
     justify-content: center;
 }
 
+.feature-list{
+    margin-right: 24px;
+    width: calc((100% - 72px) / 4);
+}
+
+li.feature-list:last-child{
+    margin-right: 0;
+}
+
+.feature-article {
+    margin-bottom: 8px;
+}
+
 .feature-card-index>li>h3 {
     display: flex;
     justify-content: flex-start;
-}
-
-.feature-card-index>li {
-    margin-right: 24px;
-}
-
-p.feature-color{
-    margin: 8px 0 0 0;
 }
 
 h2 {
