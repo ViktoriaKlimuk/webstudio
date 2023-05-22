@@ -335,10 +335,22 @@ h3 {
 /*-------- PORTFOLIO ---------*/
 /*-------- MAIN ---------*/
 /*-------- FIRST SECTION ---------*/
+.portfolio-container{
+    padding: 96px 0 120px 0;
+}
+
 .btn {
-    justify-content: center;
-    padding: 144px 0 72px;
     display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.btn-list{
+    margin-right: 24px;
+}
+
+.btn-list:last-child{
+    margin-right: 0;
 }
 
 .main-fulterbtn{
@@ -352,15 +364,15 @@ h3 {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     padding: 12px 24px;
-}
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 
-.btn>.main-fulterbtn{
-    margin-right: 20px;
 }
 
 .main-fulterbtn:is(:focus, :hover) {
     background-color: var(--ocean);
     color: var(--text-color);
+    border: 1px solid transparent
 }
 
 /*-------- FIRST SECTION/SECOND PART ---------*/
