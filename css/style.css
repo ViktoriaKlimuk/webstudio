@@ -87,8 +87,6 @@ li.contact-item:last-child {
     text-transform: uppercase;
     color: var(--iris);
     margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .logo-web {
@@ -297,10 +295,10 @@ h3 {
     flex-direction: column;
 }
 
-/* .footer-logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-} */
+}
 
 .logo-web-foot {
     font-family: 'Raleway', sans-serif;
