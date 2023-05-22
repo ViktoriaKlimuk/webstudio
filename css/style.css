@@ -61,19 +61,14 @@ img {
 
 .contact {
     display: flex;
-    margin-right: 24px;
 }
 
-.contact:last-child {
-    margin-right: 0;
-}
-
-.contact-item {
+li.contact-item {
     padding: 24px 0;
     margin-right: 24px;
 }
 
-.contact-item:last-child {
+li.contact-item:last-child {
     margin-right: 0;
 }
 
