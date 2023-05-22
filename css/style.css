@@ -51,10 +51,9 @@ img {
     display: flex;
 }
 
-/* .head{
+.head{
     display: flex;
-    padding: 0;
-} */
+}
 
 .nav-logo{
     display: flex;
