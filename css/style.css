@@ -17,7 +17,7 @@ body{
     --cornflower: #E7E9FC;
 }
 
-.link {
+a {
     text-decoration: none;
 }
 
@@ -61,6 +61,11 @@ img {
 
 .contact {
     display: flex;
+    margin-right: 24px;
+}
+
+.contact:last-child {
+    margin-right: 0;
 }
 
 .contact-item {
@@ -308,8 +313,6 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-color {
