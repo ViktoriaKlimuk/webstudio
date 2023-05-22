@@ -229,7 +229,7 @@ h2 {
     color: var(--slate);
 }
 
-/*-------- THIRD, FORTH SECTION ---------*/
+/*-------- THIRD SECTION ---------*/
 .possibilities {
     padding-bottom: 120px;
     padding-top: 0;
@@ -254,6 +254,8 @@ h2 {
     width: calc((100% - 3 * 16px) / 3);
 }
 
+/*-------- FORTH SECTION ---------*/
+
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -263,6 +265,7 @@ h2 {
     background-color: #F4F4FD;
     display: flex;
     justify-content: center;
+    margin-bottom: 72px; 
 }
 
 .team-card {
@@ -271,6 +274,16 @@ h2 {
 
 .card {
     background-color: #FFFFFF;
+    margin-right: 24px;
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card-container{
+    padding: 32px 16px;
 }
 
 h3 {
@@ -281,7 +294,11 @@ h3 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
-    margin: 0;
+}
+
+.team-article{
+    text-align: center; 
+    margin-bottom: 8px;
 }
 
 /*-------- FOOTER ---------*/
