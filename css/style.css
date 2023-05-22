@@ -384,31 +384,34 @@ h3 {
     justify-content: center;
 }
 
-ul.feature-container>li.feature-card{
-    margin: 0 24px 48px 0;
-}
-
 .feature-card {
     border: 1px solid #E7E9FC;
     width: 360px;
     padding: 0;
+    margin-right: 24px;
+    margin-bottom: 48px;
 }
 
-.feature-card>a>h2{
-    display: flex;
-    justify-content: flex-start;
-    margin: 32px 0 8px 16px;
+.feature-card:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
-.feature-card>a>p{
+.feature-card-list{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+}
+
+.feature-card>a{
     display: flex;
     justify-content: flex-start;
-    margin: 0 0 32px 16px;
 }
 
 .feature-text {
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 8px
 }
 
 
