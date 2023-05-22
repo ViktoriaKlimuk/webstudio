@@ -62,6 +62,15 @@ img {
 
 .contact {
     display: flex;
+    margin-right: 40px;
+}
+
+.contact:last-child {
+    margin-right: 0;
+}
+
+.contact-item {
+    padding: 24px 0;
 }
 
 .phone {
@@ -85,13 +94,10 @@ img {
     color: var(--navy-blue);
 }
 
-ul>li {
-    margin-right: 40px;
-}
-
 .address{
     font-style: normal;
     margin-left: 332px;
+    display: flex;
 }
 
 .list-items {
