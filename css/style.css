@@ -46,7 +46,6 @@ img {
 
 /*-------- HEADERS ---------*/
 .header{
-    padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
     display: flex;
 }
@@ -62,15 +61,15 @@ img {
 
 .contact {
     display: flex;
-    margin-right: 40px;
-}
-
-.contact:last-child {
-    margin-right: 0;
 }
 
 .contact-item {
     padding: 24px 0;
+    margin-right: 24px;
+}
+
+.contact-item:last-child {
+    margin-right: 0;
 }
 
 .phone {
