@@ -87,6 +87,8 @@ li.contact-item:last-child {
     text-transform: uppercase;
     color: var(--iris);
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-web {
