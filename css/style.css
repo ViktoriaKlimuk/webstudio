@@ -51,6 +51,7 @@ img {
 .header{
     border-bottom: 1px solid #E7E9FC;
     display: flex;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .head{
@@ -128,7 +129,9 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bk-people.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding: 188px 0;
+    max-width: 1440px;
     
 }
 
@@ -165,8 +168,16 @@ img {
 }
 
 /*-------- SECOND SECTION ---------*/
+.icon {
+    fill: currentColor;
+}
+
 .feature-card-img {
-    background-color: var(--cloud);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
 }
@@ -326,7 +337,7 @@ li.feature-list:last-child{
     margin-top: 8px;
 }
 
-.team-social-list{}
+
 
 /*-------- FIFTH SECTION ---------*/
 .customers {
