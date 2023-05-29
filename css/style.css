@@ -364,6 +364,8 @@ li.feature-list:last-child {
 
 .team-social-list {
   margin-top: 8px;
+  width: 40px;
+  height: 40px;
 }
 
 .icon-social {
