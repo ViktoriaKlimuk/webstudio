@@ -178,9 +178,9 @@ img {
 
 /*-------- SECOND SECTION ---------*/
 .icon {
-  fill: currentColor;
   width: 64px;
   height: 64px;
+  fill: currentColor;
 }
 
 .feature-card-img {
