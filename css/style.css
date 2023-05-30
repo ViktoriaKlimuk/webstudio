@@ -373,6 +373,7 @@ li.feature-list:last-child {
   width: 16px;
   height: 16px;
 }
+
 /*-------- FIFTH SECTION ---------*/
 .customers {
   padding: 120px 0;
@@ -421,6 +422,10 @@ li.feature-list:last-child {
   max-width: 104px;
   min-height: 40px;
   max-height: 63px;
+}
+
+.icon-customer:is(:hover, :focus):is(:hover, :focus) {
+  fill: #404bbf;
 }
 /*-------- FOOTER ---------*/
 .footer {
@@ -561,7 +566,7 @@ li.feature-list:last-child {
   border-top: none;
 }
 
-.feature-card > a {
+.feature-link-coffee {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
