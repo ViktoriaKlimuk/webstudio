@@ -142,6 +142,7 @@ img {
   background-size: cover;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .solutions-article {
@@ -396,7 +397,7 @@ li.feature-list:last-child {
   border-radius: 4px;
   border-color: #8e8f99;
   margin: 0;
-  width: calc((100% - 120px) / 6);
+  width: 168px;
   height: 88px;
 }
 
