@@ -77,12 +77,12 @@ img {
   padding: 0;
 }
 
-.contact-item {
+.list-items {
   position: relative;
   color: #404bbf;
 }
 
-.contact-item::after {
+.list-items::after {
   content: "";
   position: absolute;
   left: 0;
