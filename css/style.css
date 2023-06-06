@@ -77,6 +77,11 @@ img {
   padding: 0;
 }
 
+.contact-item {
+  position: absolute;
+  color: #404bbf;
+}
+
 .list-items {
   position: relative;
   color: #404bbf;
