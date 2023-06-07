@@ -130,10 +130,6 @@ img {
   color: var(--ocean);
 }
 
-.email:is(:hover, :focus) {
-  color: var(--ocean);
-}
-
 /* .contacts {
   color: var(--slate);
 } */
