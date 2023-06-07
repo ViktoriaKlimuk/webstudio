@@ -660,7 +660,7 @@ li.feature-list:last-child {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feature-card:is(:hover, :focus) .feature-cover-paragraph {
+.feature-card-link:is(:hover, :focus) .feature-cover-paragraph {
   transform: translateY(0);
 }
 
