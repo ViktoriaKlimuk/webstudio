@@ -764,7 +764,7 @@ li.feature-list:last-child {
   fill: #f4f4fd;
 }
 
-.Policy-text {
+.policy-text {
   text-decoration: solid;
   color: var(--iris);
   margin-left: 8px;
