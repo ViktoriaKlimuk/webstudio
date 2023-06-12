@@ -218,6 +218,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  appearance: none;
 }
 
 .feature-card-index {
@@ -742,8 +743,6 @@ li.feature-list:last-child {
 }
 
 .modal-check {
-  /* display: flex;
-  align-items: center; */
   margin-bottom: 24px;
 }
 
@@ -756,6 +755,13 @@ li.feature-list:last-child {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+  position: relative;
+}
+
+.modal-privacy:checked + .modal-label-privacy > .Policy-text {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .Policy-text {
