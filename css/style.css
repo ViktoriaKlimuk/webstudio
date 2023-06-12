@@ -510,11 +510,12 @@ li.feature-list:last-child {
   display: flex;
   align-items: end;
   margin-left: 80px;
-}
-
-.ooter-form-label {
   gap: 24px;
 }
+
+/* .footer-form-label {
+  gap: 24px;
+} */
 
 .footer-form-email {
   display: flex;
