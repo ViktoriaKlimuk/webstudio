@@ -513,10 +513,6 @@ li.feature-list:last-child {
   gap: 24px;
 }
 
-/* .footer-form-label {
-  gap: 24px;
-} */
-
 .footer-form-email {
   display: flex;
   flex-direction: column;
@@ -585,7 +581,6 @@ li.feature-list:last-child {
   left: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -595,6 +590,7 @@ li.feature-list:last-child {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
+  padding: 72px 24px 24px 24px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
