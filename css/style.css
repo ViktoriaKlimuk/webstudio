@@ -472,6 +472,10 @@ li.feature-list:last-child {
   width: 264px;
 }
 
+.footer-social-wrapper {
+  margin-right: 80px;
+}
+
 .footer-social {
   font-weight: 500;
   line-height: 1.5;
@@ -509,15 +513,13 @@ li.feature-list:last-child {
 
 .footer-form {
   display: flex;
-  align-items: end;
-  margin-left: 80px;
   gap: 24px;
 }
 
-.footer-form-email {
+/* .footer-form-email {
   display: flex;
   flex-direction: column;
-}
+} */
 .footer-form-article {
   font-weight: 500;
   font-size: 16px;
@@ -596,7 +598,6 @@ li.feature-list:last-child {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  text-align: end;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -684,6 +685,7 @@ li.feature-list:last-child {
   color: var(--light-slate);
   display: block;
   margin-bottom: 4px;
+  text-align: initial;
 }
 
 .modal-div-input {
@@ -722,7 +724,6 @@ li.feature-list:last-child {
   border-color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   resize: none;
-  margin-bottom: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -769,9 +770,6 @@ li.feature-list:last-child {
 }
 
 .policy-text {
-  text-decoration: solid;
-  color: var(--iris);
-  margin-left: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -783,6 +781,7 @@ li.feature-list:last-child {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .Policy-text:checked {
