@@ -44,7 +44,7 @@
               >
             </li>
             <li class="contact-item">
-              <a href="tel:+110001111111" class="list-items phone"
+              <a href="tel:+110001111111" class="list-items"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -429,8 +429,22 @@
             </li>
           </ul>
         </div>
+        <form action="" class="footer-form">
+          <div class="footer-form-email">
+            <label for="user_email" class="footer-form-article">Subcribe</label>
+            <input
+              type="email"
+              name="email"
+              id="user_email"
+              placeholder="E-mail"
+              class="footer-form-input"
+            />
+          </div>
+          <button type="submit" class="footer-form-btn">Subcribe</button>
+        </form>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
@@ -438,6 +452,53 @@
             <use href="./images/icons-black-close.svg#icon-close-black"></use>
           </svg>
         </button>
+        <form action="" class="modal-form">
+          <h4 class="modal-article">
+            Leave your contacts and we will call you back
+          </h4>
+          <label for="user_name" class="modal-form-article">Name</label>
+          <input
+            type="text"
+            name="text"
+            id="user_name"
+            class="modal-input-window"
+          />
+
+          <label for="user-phone" class="modal-form-article">Phone</label>
+          <input
+            type="number"
+            name="number"
+            id="user-phone"
+            class="modal-input-window"
+          />
+
+          <label for="user_email" class="modal-form-article">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="user_email"
+            class="modal-input-window"
+          />
+
+          <label for="user-comment" class="modal-form-article">Comment</label>
+          <textarea
+            name="comment"
+            id="user-comment"
+            cols="30"
+            rows="10"
+            class="modal-area-window"
+            resize="none"
+            placeholder="Text input"
+          ></textarea>
+
+          <span class="modal-check">
+            <input type="checkbox" name="check-policy" id="" />
+            I accept the terms and conditions of the
+            <span class="Policy-text">Privacy Policy</span></span
+          >
+
+          <button type="submit" class="mobal-btn-submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
