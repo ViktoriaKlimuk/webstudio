@@ -632,12 +632,20 @@ li.feature-list:last-child {
   margin: 48px 0 16px;
 }
 
+.modal-form-field {
+  margin-bottom: 8px;
+  text-align: start;
+}
+
 .modal-form-article {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 4px;
+}
+
+.modal-div-input {
+  position: relative;
 }
 
 .modal-input-window {
@@ -645,6 +653,17 @@ li.feature-list:last-child {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  padding-left: 50px;
+}
+
+.modal-input-icon {
+  position: absolute;
+  left: 16px;
+  top: 11px;
+}
+
+.modal-input-icon:is(:active) {
+  fill: #4d5ae5;
 }
 
 .modal-area-window {
@@ -654,11 +673,17 @@ li.feature-list:last-child {
   border-radius: 4px;
   resize: none;
   margin-bottom: 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  padding: 8px 16px;
 }
 
-.modal-input-window:is(:hover, :focus),
-.modal-area-window:is(:hover, :focus) {
+.modal-input-window:is(:hover, :focus, :active),
+.modal-area-window:is(:hover, :focus, :active) {
   border: 1px solid var(--iris);
+  fill: var(--iris);
 }
 
 .modal-check {
@@ -678,6 +703,7 @@ li.feature-list:last-child {
 .Policy-text {
   text-decoration: solid;
   color: var(--iris);
+  margin-left: 8px;
 }
 
 .mobal-btn-submit {
@@ -692,6 +718,10 @@ li.feature-list:last-child {
   letter-spacing: 0.04em;
   width: 169px;
   padding: 16px 0;
+}
+
+input::-ms-check {
+  fill: #404bbf;
 }
 /*-------- PORTFOLIO ---------*/
 /*-------- MAIN ---------*/
