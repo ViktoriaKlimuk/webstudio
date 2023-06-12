@@ -662,22 +662,17 @@ li.feature-list:last-child {
   text-align: start;
 }
 
-.modal-form-comment {
-  margin-bottom: 16px;
-  text-align: start;
-}
-
 .modal-form-article {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--light-slate);
+  color: var(--navy-blue);
   margin-bottom: 16px;
 }
 
-.modal-form-legend {
+.backdrop-form {
   margin-bottom: 8px;
 }
 
@@ -720,6 +715,10 @@ li.feature-list:last-child {
   fill: #4d5ae5;
 }
 
+.form-comment {
+  margin-bottom: 16px;
+}
+
 .modal-area-window {
   width: 100%;
   height: 120px;
@@ -745,8 +744,8 @@ li.feature-list:last-child {
 }
 
 .modal-check {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   margin-bottom: 24px;
 }
 
@@ -778,11 +777,25 @@ li.feature-list:last-child {
   fill: transparent;
 }
 
+.Policy-text:checked {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+}
+
+.privacy-link {
+  color: var(--iris);
+}
+
 .mobal-btn-submit {
-  background-color: var(--iris);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: var(--iris);
+  border: none;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -790,6 +803,8 @@ li.feature-list:last-child {
   letter-spacing: 0.04em;
   width: 169px;
   padding: 16px 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input::-ms-check {
