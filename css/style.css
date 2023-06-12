@@ -738,6 +738,10 @@ li.feature-list:last-child {
   border: 1px solid var(--iris);
 }
 
+.modal-div-input input:focus + svg {
+  fill: #4d5ae5;
+}
+
 .backdrop-form-comment {
   margin-bottom: 16px;
 }
