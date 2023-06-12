@@ -741,6 +741,10 @@ li.feature-list:last-child {
   border: 1px solid var(--iris);
 }
 
+.backdrop-form-comment {
+  margin-bottom: 16px;
+}
+
 .modal-check {
   /* display: flex;
   align-items: center; */
