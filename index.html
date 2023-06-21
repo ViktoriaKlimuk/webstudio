@@ -59,9 +59,8 @@
         </address>
         <button
           type="button"
-          class="mob-btn toggleMenu js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
+          class="mob-btn toggleMenu"
+          data-menu-open
         >
           <svg class="mob-btn-open-menu" width="32" height="22">
             <use href="./images/icons.svg#icons-mobile-menu"></use>
@@ -468,78 +467,75 @@
       </div>
     </footer>
 
-    <div class="js-menu-container" id="mobile-menu">
-      <div class="mob-menu is-hidden">
-        <button type="button" class="mob-btn-menu toggleMenu js-close-menu">
-          <svg class="mob-btn-close" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        <!-- CONTACT -->
-        <ul class="mob-contact">
-          <li class="mob-contact-item">
-            <a href="./index.html" class="mob-list-items">Studio</a>
+    <div class="mob-menu" data-menu>
+      <button type="button" class="mob-btn-menu toggleMenu" data-menu-close>
+        <svg class="mob-btn-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <!-- CONTACT -->
+      <ul class="mob-contact">
+        <li class="mob-contact-item">
+          <a href="./index.html" class="mob-list-items">Studio</a>
+        </li>
+        <li class="mob-contact-item">
+          <a href="./portfolio.html" class="mob-list-items">Portfolio</a>
+        </li>
+        <li class="mob-contact-item">
+          <a href="" class="mob-list-items">Contacts</a>
+        </li>
+      </ul>
+      <!-- ADDRESS -->
+      <address class="mob-address is-hidden">
+        <ul class="mob-contact-address">
+          <li class="mob-contacts-address">
+            <a href="mailto:info@devstudio.com" class="mob-list-address"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="mob-contact-item">
-            <a href="./portfolio.html" class="mob-list-items">Portfolio</a>
-          </li>
-          <li class="mob-contact-item">
-            <a href="" class="mob-list-items">Contacts</a>
-          </li>
-        </ul>
-
-        <!-- ADDRESS -->
-        <address class="mob-address is-hidden">
-          <ul class="mob-contact-address">
-            <li class="mob-contacts-address">
-              <a href="mailto:info@devstudio.com" class="mob-list-address"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="mob-contacts-address">
-              <a href="tel:+110001111111" class="mob-list-address"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <ul class="mob-list-social">
-          <li class="mob-social-icons">
-            <a href="" class="mob-social-link">
-              <svg class="icon-social" width="24" height="24">
-                <use
-                  href="./images/icons-social-footer.svg#icon-instagtram"
-                ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-social-icons">
-            <a href="" class="mob-social-link">
-              <svg class="icon-social" width="24" height="24">
-                <use href="./images/icons-social-footer.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-social-icons">
-            <a href="" class="mob-social-link">
-              <svg class="icon-social" width="24" height="24">
-                <use
-                  href="./images/icons-social-footer.svg#icon-facebook"
-                ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-social-icons">
-            <a href="" class="mob-social-link">
-              <svg class="icon-social" width="24" height="24">
-                <use
-                  href="./images/icons-social-footer.svg#icon-linkedin"
-                ></use>
-              </svg>
-            </a>
+          <li class="mob-contacts-address">
+            <a href="tel:+110001111111" class="mob-list-address"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </div>
+      </address>
+      <ul class="mob-list-social">
+        <li class="mob-social-icons">
+          <a href="" class="mob-social-link">
+            <svg class="icon-social" width="24" height="24">
+              <use
+                href="./images/icons-social-footer.svg#icon-instagtram"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-social-icons">
+          <a href="" class="mob-social-link">
+            <svg class="icon-social" width="24" height="24">
+              <use href="./images/icons-social-footer.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-social-icons">
+          <a href="" class="mob-social-link">
+            <svg class="icon-social" width="24" height="24">
+              <use
+                href="./images/icons-social-footer.svg#icon-facebook"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-social-icons">
+          <a href="" class="mob-social-link">
+            <svg class="icon-social" width="24" height="24">
+              <use
+                href="./images/icons-social-footer.svg#icon-linkedin"
+              ></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <!-- ---BACKDROP MODAL WINDOW--- -->
@@ -646,13 +642,13 @@
         </form>
       </div>
     </div>
-    <script
+    <!-- <script
       defer=""
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
-    ></script>
-    <script defer="" src="./js/mobile-menu.js"></script>
+    ></script> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
