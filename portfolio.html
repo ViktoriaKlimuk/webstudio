@@ -20,11 +20,13 @@
   <body>
     <header class="header">
       <div class="container head">
-        <nav class="nav-logo">
+        <!-----LOGO---->
+        <nav class="nav-logo mob-logo">
           <a href="./index.html" class="logo"
             >Web<span class="logo-web">Studio</span></a
           >
-          <ul class="contact">
+          <!---- CONTACTS--- -->
+          <ul class="contact resp-mobile">
             <li class="contact-item">
               <a href="./index.html" class="list-items">Studio</a>
             </li>
@@ -38,20 +40,33 @@
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="contact">
+        <!-----ADDRESS----->
+        <address class="address resp-mobile">
+          <ul class="tablet-contact">
             <li class="contact-item">
-              <a href="mailto:info@devstudio.com" class="list-items"
+              <a
+                href="mailto:info@devstudio.com"
+                class="list-items tab-list-item"
                 >info@devstudio.com</a
               >
             </li>
             <li class="contact-item">
-              <a href="tel:+110001111111" class="list-items"
+              <a href="tel:+110001111111" class="list-items tab-list-item"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button
+          type="button"
+          class="mob-btn toggleMenu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mob-btn-open-menu" width="32" height="22">
+            <use href="./images/icons.svg#icons-mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
