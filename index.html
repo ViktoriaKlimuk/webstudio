@@ -57,7 +57,7 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="mob-btn" data-menu-open >
+        <button type="button" class="mob-btn" data-menu-open>
           <svg class="mob-btn-open-menu" width="32" height="22">
             <use href="./images/icons.svg#icons-mobile-menu"></use>
           </svg>
@@ -68,15 +68,19 @@
     <main>
       <!-- ---BUTTON---  -->
       <section class="solutions">
-        <h1 class="solutions-article">Effective Solutions for Your Business</h1>
-        <button type="button" class="solutions-btn" data-modal-open>
-          Order Service
-        </button>
+        <div class="container">
+          <h1 class="solutions-article">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="solutions-btn" data-modal-open>
+            Order Service
+          </button>
+        </div>
       </section>
 
       <!-----CARDS WITH STRATEGY----->
       <section class="feature">
-        <div class="head">
+        <div class="container head">
           <h2 class="visually-hidden">Our feature</h2>
           <ul class="feature-card-index">
             <li class="feature-list">
@@ -133,7 +137,7 @@
 
       <!---IMAGES--->
       <section class="possibilities resp-mobile">
-        <div class="container head article">
+        <div class="container">
           <h2 class="posib-article">What are we doing</h2>
           <ul class="pic-container">
             <li class="posib-pics">
@@ -151,7 +155,7 @@
 
       <!-- ---CARDS WITH A TEAM--- -->
       <section class="team">
-        <div class="article">
+        <div class="container">
           <h2 class="team-bk">Our Team</h2>
           <ul class="team-card">
             <li class="card">
@@ -340,72 +344,176 @@
 
       <!-- ---LOGOS OF COMPANIES--- -->
       <section class="customers">
-        <h2 class="customers-main-article">Customers</h2>
-        <ul class="customers-card">
-          <li class="customers-card-list">
-            <a href="" class="customers-card-link">
-              <svg class="icon-customer" width="104" height="56">
-                <use href="./images/icons-customer.svg#icon-c-svg1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-card-list">
-            <a href="" class="customers-card-link">
-              <svg class="icon-customer" width="104" height="56">
-                <use href="./images/icons-customer.svg#icon-c-svg2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-card-list">
-            <a href="" class="customers-card-link">
-              <svg class="icon-customer" width="104" height="56">
-                <use href="./images/icons-customer.svg#icon-c-svg3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-card-list">
-            <a href="" class="customers-card-link">
-              <svg class="icon-customer" width="104" height="56">
-                <use href="./images/icons-customer.svg#icon-c-svg4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-card-list">
-            <a href="" class="customers-card-link">
-              <svg class="icon-customer" width="104" height="56">
-                <use href="./images/icons-customer.svg#icon-c-svg5"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-card-list">
-            <a href="" class="customers-card-link">
-              <svg class="icon-customer" width="104" height="56">
-                <use href="./images/icons-customer.svg#icon-c-svg6"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="customers-main-article">Customers</h2>
+          <ul class="customers-card">
+            <li class="customers-card-list">
+              <a href="" class="customers-card-link">
+                <svg class="icon-customer" width="104" height="56">
+                  <use href="./images/icons-customer.svg#icon-c-svg1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-card-list">
+              <a href="" class="customers-card-link">
+                <svg class="icon-customer" width="104" height="56">
+                  <use href="./images/icons-customer.svg#icon-c-svg2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-card-list">
+              <a href="" class="customers-card-link">
+                <svg class="icon-customer" width="104" height="56">
+                  <use href="./images/icons-customer.svg#icon-c-svg3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-card-list">
+              <a href="" class="customers-card-link">
+                <svg class="icon-customer" width="104" height="56">
+                  <use href="./images/icons-customer.svg#icon-c-svg4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-card-list">
+              <a href="" class="customers-card-link">
+                <svg class="icon-customer" width="104" height="56">
+                  <use href="./images/icons-customer.svg#icon-c-svg5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-card-list">
+              <a href="" class="customers-card-link">
+                <svg class="icon-customer" width="104" height="56">
+                  <use href="./images/icons-customer.svg#icon-c-svg6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
       <!-- ---TEXT FOOTER--- -->
-      <div class="container-foot">
+      <div class="container foot-container">
         <div class="footer-logo-paragraph">
-        <a href="./index.html" class="footer-logo logo"
-          >Web<span class="logo-web-foot">Studio</span></a
-        >
-        <p class="footer-color">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+          <a href="./index.html" class="footer-logo logo"
+            >Web<span class="logo-web-foot">Studio</span></a
+          >
+          <p class="footer-color">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
+        <!-- ---SOCIAL MEDIA FOOTER--- -->
+        <div class="footer-social-wrapper">
+          <p class="footer-social">Social media</p>
+          <ul class="footer-list_social">
+            <li class="footer-social-icons">
+              <a href="" class="footer-social-link">
+                <svg class="icon-social" width="24" height="24">
+                  <use
+                    href="./images/icons-social-footer.svg#icon-instagtram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a href="" class="footer-social-link">
+                <svg class="icon-social" width="24" height="24">
+                  <use
+                    href="./images/icons-social-footer.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a href="" class="footer-social-link">
+                <svg class="icon-social" width="24" height="24">
+                  <use
+                    href="./images/icons-social-footer.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a href="" class="footer-social-link">
+                <svg class="icon-social" width="24" height="24">
+                  <use
+                    href="./images/icons-social-footer.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ---FORM FOOTER--- -->
+        <div class="footer-form-email">
+          <p class="footer-form-article">Subscribe</p>
+          <form action="get" class="footer-form">
+            <label for="user-emaill" class="footer-form-label">
+              <input
+                type="email"
+                name="email"
+                id="user-emaill"
+                placeholder="E-mail"
+                class="footer-form-input"
+              />
+            </label>
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg class="icons-index-email" width="24" height="24">
+                <use href="./images/icons.svg#icons-index-email"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
-      <!-- ---SOCIAL MEDIA FOOTER--- -->
-      <div class="footer-social-wrapper">
-        <p class="footer-social">Social media</p>
-        <ul class="footer-list_social">
-          <li class="footer-social-icons">
-            <a href="" class="footer-social-link">
+    </footer>
+
+    <div class="mob-menu" data-menu>
+      <div class="menu-section">
+        <button type="button" class="mob-btn-menu toggleMenu" data-menu-close>
+          <svg class="mob-btn-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <!-- CONTACT -->
+        <ul class="mob-contact">
+          <li class="mob-contact-item">
+            <a href="./index.html" class="mob-list-items">Studio</a>
+          </li>
+          <li class="mob-contact-item">
+            <a href="./portfolio.html" class="mob-list-items">Portfolio</a>
+          </li>
+          <li class="mob-contact-item">
+            <a href="" class="mob-list-items">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <!-- ADDRESS -->
+      <div class="menu-contacts">
+        <address class="mob-address">
+          <ul class="mob-contact-address">
+            <li class="mob-contacts-address">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mob-list-address menu-email"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mob-contacts-address">
+              <a href="tel:+110001111111" class="mob-list-address menu-phone"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-list-social">
+          <li class="mob-social-icons">
+            <a href="" class="mob-social-link">
               <svg class="icon-social" width="24" height="24">
                 <use
                   href="./images/icons-social-footer.svg#icon-instagtram"
@@ -413,15 +521,15 @@
               </svg>
             </a>
           </li>
-          <li class="footer-social-icons">
-            <a href="" class="footer-social-link">
+          <li class="mob-social-icons">
+            <a href="" class="mob-social-link">
               <svg class="icon-social" width="24" height="24">
                 <use href="./images/icons-social-footer.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social-icons">
-            <a href="" class="footer-social-link">
+          <li class="mob-social-icons">
+            <a href="" class="mob-social-link">
               <svg class="icon-social" width="24" height="24">
                 <use
                   href="./images/icons-social-footer.svg#icon-facebook"
@@ -429,8 +537,8 @@
               </svg>
             </a>
           </li>
-          <li class="footer-social-icons">
-            <a href="" class="footer-social-link">
+          <li class="mob-social-icons">
+            <a href="" class="mob-social-link">
               <svg class="icon-social" width="24" height="24">
                 <use
                   href="./images/icons-social-footer.svg#icon-linkedin"
@@ -440,98 +548,6 @@
           </li>
         </ul>
       </div>
-      <!-- ---FORM FOOTER--- -->
-      <div class="footer-form-email">
-        <p class="footer-form-article">Subscribe</p>
-        <form action="get" class="footer-form">
-          <label for="user-emaill" class="footer-form-label">
-            <input
-              type="email"
-              name="email"
-              id="user-emaill"
-              placeholder="E-mail"
-              class="footer-form-input"
-            />
-          </label>
-          <button type="submit" class="footer-form-btn">
-            Subscribe
-            <svg class="icons-index-email" width="24" height="24">
-              <use href="./images/icons.svg#icons-index-email"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
-    </footer>
-
-    <div class="mob-menu" data-menu>
-      <button type="button" class="mob-btn-menu toggleMenu" data-menu-close>
-        <svg class="mob-btn-close" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
-      </button>
-      <!-- CONTACT -->
-      <ul class="mob-contact">
-        <li class="mob-contact-item">
-          <a href="./index.html" class="mob-list-items">Studio</a>
-        </li>
-        <li class="mob-contact-item">
-          <a href="./portfolio.html" class="mob-list-items">Portfolio</a>
-        </li>
-        <li class="mob-contact-item">
-          <a href="" class="mob-list-items">Contacts</a>
-        </li>
-      </ul>
-      <!-- ADDRESS -->
-      <address class="mob-address">
-        <ul class="mob-contact-address">
-          <li class="mob-contacts-address">
-            <a href="mailto:info@devstudio.com" class="mob-list-address"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="mob-contacts-address">
-            <a href="tel:+110001111111" class="mob-list-address"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-      <ul class="mob-list-social">
-        <li class="mob-social-icons">
-          <a href="" class="mob-social-link">
-            <svg class="icon-social" width="24" height="24">
-              <use
-                href="./images/icons-social-footer.svg#icon-instagtram"
-              ></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-social-icons">
-          <a href="" class="mob-social-link">
-            <svg class="icon-social" width="24" height="24">
-              <use href="./images/icons-social-footer.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-social-icons">
-          <a href="" class="mob-social-link">
-            <svg class="icon-social" width="24" height="24">
-              <use
-                href="./images/icons-social-footer.svg#icon-facebook"
-              ></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-social-icons">
-          <a href="" class="mob-social-link">
-            <svg class="icon-social" width="24" height="24">
-              <use
-                href="./images/icons-social-footer.svg#icon-linkedin"
-              ></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
     </div>
 
     <!-- ---BACKDROP MODAL WINDOW--- -->
@@ -638,12 +654,6 @@
         </form>
       </div>
     </div>
-    <!-- <script
-      defer=""
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script> -->
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
