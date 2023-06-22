@@ -473,7 +473,7 @@ img {
 
 @media screen and (min-width: 1440px) {
   .solutions {
-    padding: 188px 472px;
+    padding: 188px 456px;
   }
 }
 /*-------- SECOND SECTION ---------*/
@@ -586,10 +586,6 @@ img {
 
   .feature-list {
     width: calc(100% - 72px);
-  }
-
-  .feature-color {
-    font-weight: 500;
   }
 
   .feature-card-index {
