@@ -282,6 +282,7 @@ img {
 }
 
 .container {
+  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -310,14 +311,15 @@ img {
   .tablet-contact {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 6px;
     align-items: center;
-    padding: 24px 0;
+    padding: 20px 0;
   }
 
   .tab-list-item,
   .mob-logo {
     padding: 0;
+    font-size: 12px;
   }
 
   .logo {
@@ -335,7 +337,11 @@ img {
   }
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
   .mob-btn,
   .mob-btn-open-menu {
     display: none;
@@ -350,27 +356,25 @@ img {
   }
 
   .list-items-underline::after {
-    bottom: -13px;
-  }
-}
-
-@media screen and (min-width: 914px) {
-  .list-items-underline::after {
-    bottom: -2px;
-  }
-}
-
-@media screen and (min-width: 914px) {
-  .tablet-contact {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+    bottom: -7px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  .tablet-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    padding: 24px 0;
+  }
+
+  .list-items-underline::after {
+    bottom: -2px;
   }
 }
 /* -------- MAIN ---------
@@ -571,6 +575,10 @@ img {
 }
 
 @media screen and (min-width: 428px) {
+  .feature {
+    padding: 96px 0;
+  }
+
   .feature-card-img {
     display: none;
   }
@@ -592,13 +600,19 @@ img {
     display: flex;
     gap: 72px 24px;
     flex-wrap: wrap;
-    padding: 96px 16px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .feature-list {
     width: calc((100% - 72px) / 2);
+  }
+
+  .feature-article {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
   }
 }
 
@@ -749,23 +763,6 @@ img {
 
   .card {
     width: calc(100% - 72px);
-  }
-}
-
-@media screen and (min-width: 640px) {
-  .team {
-    padding: 96px 0;
-  }
-
-  .team-card {
-    display: flex;
-    gap: 72px;
-    flex-wrap: wrap;
-    padding: 0;
-  }
-
-  .card {
-    width: calc((100% - 72px) / 2);
   }
 }
 
@@ -1120,14 +1117,13 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding: 96px 0;
+  .foot-container {
+    display: grid;
+    justify-content: center;
   }
 
-  .foot-container {
+  .container-grid {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 108px;
   }
 
   .footer-logo {
@@ -1164,7 +1160,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .footer {
-    padding: 120px 0;
+    padding: 100px 0;
   }
 
   .foot-container {
