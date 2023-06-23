@@ -607,13 +607,6 @@ img {
   .feature-list {
     width: calc((100% - 72px) / 2);
   }
-
-  .feature-article {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -623,6 +616,13 @@ img {
 
   .feature-list {
     width: calc((100% - 72px) / 4);
+  }
+
+  .feature-article {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
   }
 }
 
